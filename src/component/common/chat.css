@@ -1,0 +1,30 @@
+.text-field{
+    display: flex;
+}
+.message-container-for-sender{
+display: flex;
+
+} 
+.message-container-for-reciver{
+    display: flex;
+    justify-content: end;
+      } 
+.text-left{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(194, 186, 186);
+    border-radius: 12px;
+    width: fit-content;
+    padding: 7px;
+    margin: 8px;
+}
+.text-right{
+    display: flex;
+    justify-self: end;
+    /* justify-content: end; */
+      background-color: rgb(103, 68, 199);
+    border-radius: 12px;
+     width: fit-content;
+    padding: 7px;
+    margin: 8px;
+}
